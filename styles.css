@@ -5,15 +5,43 @@
 
 .header {
   background-color: #1f2937;
-  color: white;
+  color: #f9faf8;
 }
 
 .headertop {
   display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 ul {
   margin: 10px;
   list-style: none;
   display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.bigtitle {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.titlesub {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.headerlogo {
+  font-size: 24px;
+}
+
+.hdbody {
+  display: flex;
+  margin: 100px;
+}
+
+img {
+  max-height: 200px;
 }
