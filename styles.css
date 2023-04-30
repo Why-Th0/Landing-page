@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+}
+
+.headertop {
+  display: flex;
+}
+
+ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+}
